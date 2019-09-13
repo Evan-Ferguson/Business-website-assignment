@@ -1,2 +1,2 @@
-# Java-script-lessons
-Java script lessons
+# Busniness-Website-assignment
+business website

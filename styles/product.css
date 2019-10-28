@@ -1,26 +1,23 @@
 body{
-  background-color:#000000;
+
 
 }
 
 h1{
-  color:#0080ff;
-  font-size: 350%
+
 
 }
 
 h2{
-  color:#000c73;
-  font-size: 250%
+
 }
 
 h3{
-  color:#000c73;
-  font-size: 250%
+font-size: 200%
 }
 
 p{
-  color: blue;
+  color: ;
   font-family: verdana;
   font-size: 150%;
 }

@@ -13,7 +13,10 @@ function C(){
 total = total + 1999.99;
 alert("order placed")
 }
-
+function LL(){
+  total = total + 100.00;
+  alert("order placed")
+}
 function L(){
 total = total + 100000.00;
 alert("order placed")

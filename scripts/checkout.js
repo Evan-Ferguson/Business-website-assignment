@@ -5,35 +5,38 @@ let total = 0.0;
 function load(){
 
 }
-function save(){
 
+function save(whatToSave){
+var blob = new Blob([whatToSave],
+{type: "text/plain;charset=utf-8"});
+saveAs(blob, "total.txt");
 }
+
 function CM(){
 total = total + 1.99;
 alert("order placed")
-return total
 }
 
 function C(){
 total = total + 1999.99;
 alert("order placed")
-return total
 }
-function LL(){
-  total = total + 100.00;
-  alert("order placed")
-  return total
-}
+
 function L(){
 total = total + 100000.00;
 alert("order placed")
-return total
+}
+
+function RL(){
+  total = total + 100.00;
+  alert("order placed")
+  toString(total)
+  save(total)
 }
 
 function LR(){
 total = total + 200.00;
 alert("order placed")
-return total
 }
 
 function Main(){
